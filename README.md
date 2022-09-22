@@ -1,6 +1,6 @@
 # Deep Learning and Machine Vision: Overview
 
-**Intro**
+## Intro
 
 Some will argue that deep learning (DL), a subset of artificial intelligence (AI), has proven itself to be the technology of the future. 
 The secret to this success lies in the large amount of data needed to train DL algorithms which achieve human level accuracy. 
@@ -9,7 +9,7 @@ many manufacturing processes have been fine-tuned to eliminate the majority of d
 very limited amount of data. It turns out that this challenge can be overcome by having quality instead of quantity data via the means of 
 machine vision (MV). In this blog, I will explain what MV is and its different components.
 
-**Machine vision**
+## Machine vision
 
 Many of us have heard of computer vision (CV), but not too many are familiar with the concept of machine vision (MV). As you may know, 
 the CV field focuses on low-level and high-level image processing tasks such as interpolation, filtering, edge detection, segmentation, 
@@ -23,7 +23,7 @@ the same underlying technology as the CV (edge detection, object segmentation, c
 
 <img src="MachineVision.png">
 
-Typical MV system is presented in Figure 1. The inspection process starts the moment when the part is placed on a moving conveyor belt. 
+Typical MV system is presented in the above figure. The inspection process starts the moment when the part is placed on a moving conveyor belt. 
 As the part travels down the conveyor belt, it passes under the well illuminated field-of-view (FOV) of the lens. The lens focuses the image 
 onto the imaging sensor (array of pixels) which converts the analog signal into the digital one (image). Camera electronics is responsible 
 for controlling, pre-processing, and further sending the image to the host computer via interface. This interface could be a network card, 
@@ -32,7 +32,7 @@ which results in a decision (binary classification;pass vs fail, multi-class cla
 inference is communicated to a programmable logic controller (PLC) which in turn instructs the robot to pick the part of the conveyor belt and 
 to place it in the appropriate bin (pass vs fail). This process repeats all over again for many days, months, and even years.
 
-**Quality not quantity data**
+## Quality not quantity data
 
 Carefully designing a MV system ensures the following:
 - High resolution image; there are enough pixels to be able to resolve the smallest defect
@@ -43,7 +43,7 @@ Carefully designing a MV system ensures the following:
 A MV system that delivers the data following the above points will result in a good quality data; high resolution, high contrast, 
 uniform, and noise free.
 
-**Conclusion**
+## Conclusion
 
 Deep learning needs to prove itself to be useful in a manufacturing environment where there is a limited number of data available. 
 Leveraging the machine vision framework to get good quality data is crucial to this success. MV is a multidisciplinary field that 
