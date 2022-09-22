@@ -1,5 +1,4 @@
-# deep-learning-machine-vision-overview
-Deep Learning and Machine Vision: Overview
+# Deep Learning and Machine Vision: Overview
 
 **Intro**
 
