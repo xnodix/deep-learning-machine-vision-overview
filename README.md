@@ -22,7 +22,7 @@ This makes MV very suitable for the manufacturing environment where the objectiv
 contains a camera, lens, and a light source. Furthermore, the physical action may be parts sorting, while the data analysis process shares 
 the same underlying technology as the CV (edge detection, object segmentation, classification, etc.).
 
-<img src=".MachineVision.png" width=400>
+<img src="MachineVision.png">
 
 Typical MV system is presented in Figure 1. The inspection process starts the moment when the part is placed on a moving conveyor belt. 
 As the part travels down the conveyor belt, it passes under the well illuminated field-of-view (FOV) of the lens. The lens focuses the image 
